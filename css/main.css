@@ -1,0 +1,331 @@
+/*Cascading Style Sheets*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+nav {
+	background-color:#352D2F;
+	margin: 0;
+	width: 100%;
+	position: fixed;
+}
+nav h2{
+	text-align: center;
+	color: white;
+	margin: 0;
+	font-size: 18px;
+	display: inline-block;
+}
+.logo {
+	background-color: #F33E42;
+	width: 50px;
+	padding: 5px 2px 5px 2px;
+	display: inline-block;
+	margin-left: 10%;
+}
+.navbar li{
+	display: inline-block;
+	color: white;
+	padding: 20px;
+	
+}
+.logo, .navbar{
+	display: inline-block;
+}
+
+.navbar {
+	text-align: right;
+	width: 50%;
+	margin: 0;
+	float: right;
+	margin-right: 10%;
+}
+
+.beginning {
+	color: white;
+	background-color:#352D2F;
+	text-align: center;
+	height: auto;
+	padding: 30px 30px 10px 30px;
+}
+
+.beginning h1{
+	text-align: center;
+	width: 70%;
+	margin:0 auto;
+	font-size: 55px;
+	letter-spacing: 5px;
+	padding: 200px 50px 50px 50px;
+}
+.beginning button{
+	color: white;
+	padding: 10px;
+	background-color: #352D2F;
+}
+.beginning i{
+	font-size: 15px;
+	padding-right: 10px;
+}
+
+.down i{
+	font-size: 30px;
+	padding-top: 50px;
+}
+.down h6 {
+	padding: 10px 10px 10px 10px;
+	margin:0;
+}
+
+.middle {
+	font-size: 20px;
+	text-align: center;
+	width: 55%;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+.middle button {
+	padding: 10px 15px 10px 15px;
+	background-color: #F33E42;
+	color: white;
+}
+
+.red {
+	background-color: #F33E42;
+	color: white;
+	width: 50%;
+	margin: 0;
+	vertical-align: top;
+	height: 500px;
+	
+}
+.red p {
+	width: 50%;
+	font-size: 11px;
+	margin: 0;
+	padding-left: 40px;
+}
+.red h2{
+	margin:0;
+	padding: 10px 0 0 40px;
+}
+.red h6 {
+	margin: 0;
+	padding: 300px 0 0 40px;
+}
+.centerright {
+	width: 100%;
+	background-color: #352D2F;
+	color: white;
+	margin: 0;
+	vertical-align: top;
+	height: 250px;
+	float: right;
+}
+.centerright h2 {
+	margin:0;
+	padding: 100px 0 0 40px;
+}
+.centerright p {
+	width: 50%;
+	font-size: 11px;
+	margin: 0;
+	padding-left: 40px;
+}
+.red, .new{
+	  display: inline-block;
+  	  width: 50%;
+  	  margin:0;
+
+}
+.centernew {
+	background-color: #30282A;
+	width: 100%;
+	color: white;
+	margin: 0;
+	height: 250px;
+	float: right;
+	vertical-align: bottom;
+}
+.centernew h2 {
+	margin:0;
+	padding: 100px 0 0 40px;
+}
+.centernew p {
+	width: 50%;
+	font-size: 11px;
+	margin: 0;
+	padding-left: 40px;
+}
+
+.middlebar {
+	background-color: #30282A;
+	text-align: center;
+	padding: 0 0 15px 0;
+}
+.middlebar button {
+	padding: 8px 20px 8px 20px; 
+	border: none;
+	background-color: #30282A;
+	color: white;
+	border-bottom: solid white;
+	font-size: 10px;
+}
+.bottomsection i {
+	color: red;
+	font-size: 40px;
+}
+.newleft, .newright{
+	width: 49%;
+	display: inline-block;
+	padding: 30px 20px 20px 90px;
+	margin: 0;
+
+}
+.newleft, .newright p{
+	font-size: 13px;
+}
+.center {
+	height: 500px;
+}
+
+.connected h2 {
+	font-size: 20px;
+	padding-left: 90px;
+}
+.connected p {
+	font-size: 12px;
+	padding-left: 90px;
+}
+.social {
+	text-align: center;
+	padding-right: 40px;
+	padding-bottom: 35px;
+}
+.social h2{
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+}
+.social i {
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+	font-size: 25px;
+}
+.social div {
+	background-color: #30282A;
+	display: inline-block;
+	margin: 10px;
+	color: white;
+	padding: 60px;
+	width: 250px;
+}
+.address {
+	background-color: #30282A;
+	text-align: center;
+	height: 400px;
+	padding: 100px;
+}
+.address h1{
+	display: inline-block;
+	color: white;
+	font-size: 12px;
+	background-color: #F33E42;
+	padding: 40px 100px 40px 100px;
+
+}
+.address i{
+	font-size: 20px;
+}
+
+@media (max-width: 1277px) {
+
+	.navbar li{
+	display: inline-block;
+	color: white;
+	padding: 5px;
+	
+	}	
+	.navbar {
+	text-align: right;
+	width: 70%;
+	margin: 0;
+	float: right;
+	margin-right: 10%;
+	}
+
+}
+
+@media (max-width: 550px){
+
+	.navbar li{
+	display: inline-block;
+	color: white;
+	padding: 0px;
+	
+	}	
+	.navbar {
+	text-align: right;
+	width: 30%;
+	margin: 0;
+	float: right;
+	margin-right: 10%;
+	display: none;
+	}
+
+	.beginning h1{
+	text-align: center;
+	width: 70%;
+	margin:0 auto;
+	font-size: 40px;
+	letter-spacing: 5px;
+	padding: 100px 25px 25px 25px;
+	}
+	.logo {
+		transition: 2s;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.red p {
+	width: 70%;
+	font-size: 11px;
+	margin: 0;
+	padding-left: 40px;
+	}
+	.red h2{
+		margin:0;
+		padding: 10px 0 0 40px;
+	}
+	.red h6 {
+		margin: 0;
+		padding: 100px 0 0 40px;
+	}
+
+	.centerright p {
+	width: 70%;
+	font-size: 11px;
+	margin: 0;
+	padding-left: 40px;
+	}
+	.centerright h2 {
+	margin:0;
+	padding: 50px 0 0 40px;
+	}
+	.centernew h2 {
+	margin:0;
+	padding: 50px 0 0 40px;
+	}
+	.centernew p {
+		width: 70%;
+		font-size: 11px;
+		margin: 0;
+		padding-left: 40px;
+	}
+
+}
